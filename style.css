@@ -19,12 +19,27 @@ body {
 .description{
     font-family: 'Satoshi-Light';
 }
+#access{
+    min-height: 100%;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CTA{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;  
+}
 #background {
     position: fixed ;
-    min-width: 100%;
-    min-height: 100%;
+    height: 100vh;
+    width: 100vw;
     right: 0;
     bottom: 0;
+    object-fit: cover;
   }
 
   h1, h2, p {

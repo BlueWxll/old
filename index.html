@@ -4,11 +4,13 @@
         <title>BlueWxll.</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale = 1.0" />
         <script src="./src/snowflakes.js"></script>
     </head>
     <body id="snowflakes">
         <video id="background" class="background" playsinline muted loop><source src="https://r2.guns.lol/cc3b7bb1-4b73-442e-850b-de8419c53739.mp4" type="video/mp4"></video>
+        <audio id="audioSound" src="https://r2.guns.lol/cd9ec30a-f9b1-4657-a595-9bca0921da57.mp3" loop=""></audio>
+        <div id="access" onclick="access()"><h1 class="CTA">Click to access.</h1></div>
         <div class="bio">            
             <main>
                 <div class="username">
@@ -21,7 +23,12 @@
                 </div>
             </main>
             <footer>
-            
+                <p class="copyrights" style="
+    position: fixed;
+    bottom: 0%;
+    left: 10px;
+    color: white;
+">All rights reserved - BlueWxll 2024</p>
             </footer>
         </div>
         <script async src="./index.js"></script>
